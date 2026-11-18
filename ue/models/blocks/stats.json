@@ -1,0 +1,31 @@
+{
+  "definitions": [
+    {
+      "title": "Stats",
+      "id": "stats",
+      "model": "stats",
+      "filter": "stats",
+      "plugins": {
+        "da": {
+          "name": "stats",
+          "rows": 2,
+          "columns": 1
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "stats",
+      "fields": [
+        {
+          "component": "boolean",
+          "name": "classes_dark",
+          "label": "Dark Background",
+          "valueType": "boolean"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

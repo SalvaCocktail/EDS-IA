@@ -295,6 +295,19 @@
           }
         },
         {
+          "title": "Stats",
+          "id": "stats",
+          "model": "stats",
+          "filter": "stats",
+          "plugins": {
+            "da": {
+              "name": "stats",
+              "rows": 2,
+              "columns": 1
+            }
+          }
+        },
+        {
           "title": "Table",
           "id": "table",
           "model": "table",
@@ -369,19 +382,6 @@
                   "selector": "div>div>picture>img[src]"
                 }
               ]
-            }
-          }
-        },
-        {
-          "title": "Stats",
-          "id": "stats",
-          "model": "stats",
-          "filter": "stats",
-          "plugins": {
-            "da": {
-              "name": "stats",
-              "rows": 2,
-              "columns": 1
             }
           }
         }

@@ -223,6 +223,17 @@
     ]
   },
   {
+    "id": "stats",
+    "fields": [
+      {
+        "component": "boolean",
+        "name": "classes_dark",
+        "label": "Dark Background",
+        "valueType": "boolean"
+      }
+    ]
+  },
+  {
     "id": "table",
     "fields": [
       {
@@ -277,17 +288,6 @@
         "name": "posterImage",
         "label": "Poster Image",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "stats",
-    "fields": [
-      {
-        "component": "boolean",
-        "name": "classes_dark",
-        "label": "Dark Background",
-        "valueType": "boolean"
       }
     ]
   }
