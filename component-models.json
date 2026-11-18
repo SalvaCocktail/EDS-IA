@@ -279,5 +279,21 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "stats",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Dark",
+            "value": "dark"
+          }
+        ]
+      }
+    ]
   }
 ]

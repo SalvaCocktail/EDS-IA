@@ -371,6 +371,19 @@
               ]
             }
           }
+        },
+        {
+          "title": "Stats",
+          "id": "stats",
+          "model": "stats",
+          "filter": "stats",
+          "plugins": {
+            "da": {
+              "name": "stats",
+              "rows": 2,
+              "columns": 1
+            }
+          }
         }
       ]
     }
