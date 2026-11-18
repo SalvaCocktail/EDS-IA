@@ -298,12 +298,21 @@
           "title": "Stats",
           "id": "stats",
           "model": "stats",
-          "filter": "stats",
           "plugins": {
             "da": {
               "name": "stats",
               "rows": 2,
-              "columns": 1
+              "columns": 1,
+              "fields": [
+                {
+                  "name": "number",
+                  "selector": "div:nth-child(1)>div"
+                },
+                {
+                  "name": "label",
+                  "selector": "div:nth-child(2)>div"
+                }
+              ]
             }
           }
         },
