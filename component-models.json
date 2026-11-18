@@ -284,15 +284,10 @@
     "id": "stats",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Dark",
-            "value": "dark"
-          }
-        ]
+        "component": "boolean",
+        "name": "classes_dark",
+        "label": "Dark Background",
+        "valueType": "boolean"
       }
     ]
   }
